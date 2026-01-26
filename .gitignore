@@ -1,0 +1,4 @@
+# Visual Studio
+.vs/
+x64/
+xmlSigner/xmlSigner.vcxproj.user
