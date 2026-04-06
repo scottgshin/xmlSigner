@@ -17,15 +17,18 @@
 
 
 /*
-    XML Signer - Signs XML files (XMLDsig) using a certificate from Windows certificate store
+    XML Signer - Signs XML files (XMLDSig) using a code-signing certificate from Windows certificate store
     
     Reads configuration from signXmlFile.ini:
+
     [thumbprint]
     YOUR_CERTIFICATE_THUMBPRINT
     
-    [filestosign]
-    c:\folder\file1.xml
-    c:\folder\file2.xml
+    [filesToSign]
+    c:\your folder\file2sign1.xml
+    c:\your folder\file2sign2.xml
+
+    Note that the certificate thumbprint is necessary to find the certificate from the store.
 */
 
 #include <windows.h>
