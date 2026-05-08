@@ -19,7 +19,7 @@
 /*
     XML Signer - Signs XML files (XMLDSig) using a code-signing certificate from Windows certificate store
     
-    Reads configuration from signXmlFile.ini:
+    Reads configuration from xmlSigner.ini:
 
     [thumbprint]
     YOUR_CERTIFICATE_THUMBPRINT
